@@ -11,7 +11,7 @@ int gammaCorrection(cv::Mat srcMat, cv::Mat & dstMat, float gamma)
  {
 
 
- 	//本函数只处理单通道图像 
+ 	//本函数只处理单通道图像  
  	if (srcMat.channels() != 1)return -1;
 
 
